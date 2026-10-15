@@ -56,3 +56,29 @@ printf("invalid expense entered/n");
 }
 return 0;
 }
+output :
+1)enter expense(0 to stop) : 80 -5 120 650 0
+category:small
+enter expense(0 to stop) : invalid expense /nenter expense(0 to stop) : category:medium
+enter expense(0 to stop) :  category:large
+enter expense(0 to stop) : number of validexpenses : 3
+total of validexpenses : 850.00
+number of smallcounut : 1
+total of smallexpenses : 80.00
+number of mediumcount : 1
+total of mediumexpense : 120.00
+number of largeexpense : 1
+total of largeexpense : 650.00
+2)enter expense(0 to stop) : 75 -85 900 888 0
+category:small
+enter expense(0 to stop) : invalid expense /nenter expense(0 to stop) :  category:large
+enter expense(0 to stop) :  category:large
+enter expense(0 to stop) : number of validexpenses : 3
+total of validexpenses : 1863.00
+number of smallcounut : 1
+total of smallexpenses : 75.00
+number of mediumcount : 0
+total of mediumexpense : 0.00
+number of largeexpense : 2
+total of largeexpense : 1788.00
+average of valid expense = Rs 621.00
