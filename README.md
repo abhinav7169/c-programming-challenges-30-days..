@@ -1,1 +1,0 @@
-# c-programming-challenges-30-days..
