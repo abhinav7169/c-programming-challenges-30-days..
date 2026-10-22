@@ -18,6 +18,7 @@ R= -B -+SQRT(D) / 2A
 16.CHOICE4  PTINT EXIT
 17. IF ANY ANOTHER CHOICE IS TYPED BY THE USER TYPE INVALID CHOICE
 18.STOP
+code :
 #include<stdio.h>
 #include<math.h>
 int main(){
