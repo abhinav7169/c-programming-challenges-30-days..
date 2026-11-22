@@ -253,3 +253,280 @@ printf("Invalid choice! Try again.\n");
 }
 return 0;
 }
+OUTPUT :
+waterwise menu
+1. Enter Water Data
+2. Display Water Data
+3. Generate Audit Report
+4. Rank Zones
+5. Conservation Actions
+6. Exit
+Enter your choice: 1
+
+Enter details for Academic Block
+Enter daily target: 1000
+Enter water usage for Day 1: 900
+Enter water usage for Day 2: 1100
+Enter water usage for Day 3: 1500
+Enter water usage for Day 4: 1400
+Enter water usage for Day 5: 900
+Enter water usage for Day 6: 800
+Enter water usage for Day 7: 1200
+
+Enter details for Hostel
+Enter daily target: 2000
+Enter water usage for Day 1: 1800
+Enter water usage for Day 2: 1900
+Enter water usage for Day 3: 2100
+Enter water usage for Day 4: 3000
+Enter water usage for Day 5: 2500
+Enter water usage for Day 6: 1800
+Enter water usage for Day 7: 1900
+
+Enter details for Library
+Enter daily target: 500
+Enter water usage for Day 1: 400
+Enter water usage for Day 2: 450
+Enter water usage for Day 3: 460
+Enter water usage for Day 4: 470
+Enter water usage for Day 5: 480
+Enter water usage for Day 6: 490
+Enter water usage for Day 7: 500
+
+Enter details for Cafeteria
+Enter daily target: 1500
+Enter water usage for Day 1: 1400
+Enter water usage for Day 2: 1600
+Enter water usage for Day 3: 2200
+Enter water usage for Day 4: 1500
+Enter water usage for Day 5: 1400
+Enter water usage for Day 6: 2100
+Enter water usage for Day 7: 1400
+
+Enter details for Sports Complex
+Enter daily target: 1000
+Enter water usage for Day 1: 800
+Enter water usage for Day 2: 900
+Enter water usage for Day 3: 1300
+Enter water usage for Day 4: 1000
+Enter water usage for Day 5: 900
+Enter water usage for Day 6: 950
+Enter water usage for Day 7: 1000
+
+waterwise menu
+1. Enter Water Data
+2. Display Water Data
+3. Generate Audit Report
+4. Rank Zones
+5. Conservation Actions
+6. Exit
+Enter your choice: 2
+
+water consumption data
+Day1	Day2	Day3	Day4	Day5	Day6	Day7	Target
+Academic Block	900	1100	1500	1400	900	800	1200	1000
+Hostel	1800	1900	2100	3000	2500	1800	1900	2000
+Library	400	450	460	470	480	490	500	500
+Cafeteria	1400	1600	2200	1500	1400	2100	1400	1500
+Sports Complex	800	900	1300	1000	900	950	1000	1000
+
+waterwise menu
+1. Enter Water Data
+2. Display Water Data
+3. Generate Audit Report
+4. Rank Zones
+5. Conservation Actions
+6. Exit
+Enter your choice: 3
+
+water audit report
+
+Zone: Academic Block
+Weekly Total: 7800 L
+Daily Average: 1114.29 L
+Highest Usage: 1500 L on Day 3
+Over Limit Days: 4
+Total Excess: 1200 L
+Spike Days: 1
+Alert Days: 4
+
+Zone: Hostel
+Weekly Total: 15000 L
+Daily Average: 2142.86 L
+Highest Usage: 3000 L on Day 4
+Over Limit Days: 3
+Total Excess: 1600 L
+Spike Days: 1
+Alert Days: 3
+
+Zone: Library
+Weekly Total: 3250 L
+Daily Average: 464.29 L
+Highest Usage: 500 L on Day 7
+Over Limit Days: 0
+Total Excess: 0 L
+Spike Days: 0
+Alert Days: 0
+
+Zone: Cafeteria
+Weekly Total: 11600 L
+Daily Average: 1657.14 L
+Highest Usage: 2200 L on Day 3
+Over Limit Days: 3
+Total Excess: 1400 L
+Spike Days: 1
+Alert Days: 3
+
+Zone: Sports Complex
+Weekly Total: 6850 L
+Daily Average: 978.57 L
+Highest Usage: 1300 L on Day 3
+Over Limit Days: 1
+Total Excess: 300 L
+Spike Days: 1
+Alert Days: 1
+
+waterwise menu
+1. Enter Water Data
+2. Display Water Data
+3. Generate Audit Report
+4. Rank Zones
+5. Conservation Actions
+6. Exit
+Enter your choice: 4
+
+water audit report
+
+Zone: Academic Block
+Weekly Total: 7800 L
+Daily Average: 1114.29 L
+Highest Usage: 1500 L on Day 3
+Over Limit Days: 4
+Total Excess: 1200 L
+Spike Days: 1
+Alert Days: 4
+
+Zone: Hostel
+Weekly Total: 15000 L
+Daily Average: 2142.86 L
+Highest Usage: 3000 L on Day 4
+Over Limit Days: 3
+Total Excess: 1600 L
+Spike Days: 1
+Alert Days: 3
+
+Zone: Library
+Weekly Total: 3250 L
+Daily Average: 464.29 L
+Highest Usage: 500 L on Day 7
+Over Limit Days: 0
+Total Excess: 0 L
+Spike Days: 0
+Alert Days: 0
+
+Zone: Cafeteria
+Weekly Total: 11600 L
+Daily Average: 1657.14 L
+Highest Usage: 2200 L on Day 3
+Over Limit Days: 3
+Total Excess: 1400 L
+Spike Days: 1
+Alert Days: 3
+
+Zone: Sports Complex
+Weekly Total: 6850 L
+Daily Average: 978.57 L
+Highest Usage: 1300 L on Day 3
+Over Limit Days: 1
+Total Excess: 300 L
+Spike Days: 1
+Alert Days: 1
+
+zone ranking
+Rank 1: Hostel1600 L
+Rank 2: Cafeteria1400 L
+Rank 3: Academic Block1200 L
+Rank 4: Sports Complex300 L
+Rank 5: Library0 L
+
+waterwise menu
+1. Enter Water Data
+2. Display Water Data
+3. Generate Audit Report
+4. Rank Zones
+5. Conservation Actions
+6. Exit
+Enter your choice: 5
+
+water audit report
+
+Zone: Academic Block
+Weekly Total: 7800 L
+Daily Average: 1114.29 L
+Highest Usage: 1500 L on Day 3
+Over Limit Days: 4
+Total Excess: 1200 L
+Spike Days: 1
+Alert Days: 4
+
+Zone: Hostel
+Weekly Total: 15000 L
+Daily Average: 2142.86 L
+Highest Usage: 3000 L on Day 4
+Over Limit Days: 3
+Total Excess: 1600 L
+Spike Days: 1
+Alert Days: 3
+
+Zone: Library
+Weekly Total: 3250 L
+Daily Average: 464.29 L
+Highest Usage: 500 L on Day 7
+Over Limit Days: 0
+Total Excess: 0 L
+Spike Days: 0
+Alert Days: 0
+
+Zone: Cafeteria
+Weekly Total: 11600 L
+Daily Average: 1657.14 L
+Highest Usage: 2200 L on Day 3
+Over Limit Days: 3
+Total Excess: 1400 L
+Spike Days: 1
+Alert Days: 3
+
+Zone: Sports Complex
+Weekly Total: 6850 L
+Daily Average: 978.57 L
+Highest Usage: 1300 L on Day 3
+Over Limit Days: 1
+Total Excess: 300 L
+Spike Days: 1
+Alert Days: 1
+
+water conservation action
+Academic Block:
+Check for water leakage
+educe water usage and conduct an audit
+Hostel:
+Check for water leakage
+educe water usage and conduct an audit
+Library:
+- Maintain current water-saving practices.
+Cafeteria:
+Check for water leakage
+educe water usage and conduct an audit
+Sports Complex:
+Check for water leakage
+Monitor water usage regularly
+
+waterwise menu
+1. Enter Water Data
+2. Display Water Data
+3. Generate Audit Report
+4. Rank Zones
+5. Conservation Actions
+6. Exit
+Enter your choice: 6
+Thank you! Save Water!
